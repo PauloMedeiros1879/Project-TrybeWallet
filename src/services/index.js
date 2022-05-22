@@ -1,6 +1,7 @@
 const fetchCurrencies = async () => {
-  const response = await fetch('https://economia.awesomeapi.com.br/json/all');
-  const currencies = await response.json();
+  const requestApi = await fetch('https://economia.awesomeapi.com.br/json/all');
+  const response = await requestApi.json();
+  const currencies = Object.keys(response);
   return currencies;
 };
 

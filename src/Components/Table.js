@@ -26,9 +26,13 @@ class Table extends Component {
               <td>{item.description}</td>
               <td>{item.tag}</td>
               <td>{item.method}</td>
-              <td>{`${item.value},00`}</td>
-              <td>{item.exchangeRates[item.currency].name}</td>
+              <td>{Number(item.value).toFixed(2)}</td>
+              <td>{item.exchangeRates[item.currency].name.split('/')[0]}</td>
               <td>{Number(item.exchangeRates[item.currency].ask).toFixed(2)}</td>
+              <td>
+                {(item.value * item.exchangeRates[item.currency].ask).toFixed(2)}
+              </td>
+              <td>Real</td>
               <td>
                 <button
                   type="button"
