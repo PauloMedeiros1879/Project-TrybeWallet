@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import saveLoginInfo from '../actions';
+import { user } from '../actions';
 
 class Form extends Component {
   constructor(props) {
@@ -89,7 +89,7 @@ class Form extends Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  loginInfo: (payload) => dispatch(saveLoginInfo(payload)),
+  loginInfo: (payload) => dispatch(user(payload)),
 });
 
 Form.propTypes = {

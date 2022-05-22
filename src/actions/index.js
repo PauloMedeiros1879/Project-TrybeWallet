@@ -1,6 +1,8 @@
-const saveLoginInfo = ({ email }) => ({
-  type: 'LOGIN',
-  email,
+export const LOGIN = 'LOGIN';
+
+export const user = (payload) => ({
+  type: LOGIN,
+  payload,
 });
 
 const failedRequest = (error) => ({ type: 'FAILED_REQUEST', error });
@@ -58,5 +60,3 @@ export const deleteAndUpdateExpense = (payload) => ({
   type: 'DELETE_AND_UPDATE_EXPENSE',
   payload,
 });
-
-export default saveLoginInfo;

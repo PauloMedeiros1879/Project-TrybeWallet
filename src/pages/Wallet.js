@@ -5,7 +5,7 @@ import { deleteAndUpdateExpense, getCurrencies, saveExpense } from '../actions/i
 import Header from '../Components/Header';
 import Table from '../Components/Table';
 
-const ALIMENTACAO = 'Alimentação';
+const feeding = 'Alimentação';
 
 class Wallet extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Wallet extends Component {
       descriptionInput: '',
       currencyInput: 'USD',
       methodInput: 'Dinheiro',
-      tagInput: ALIMENTACAO,
+      tagInput: feeding,
       editForm: false,
       idEditing: 0,
     };
@@ -47,7 +47,7 @@ class Wallet extends Component {
       descriptionInput: '',
       currencyInput: 'USD',
       methodInput: 'Dinheiro',
-      tagInput: ALIMENTACAO,
+      tagInput: feeding,
     }, () => {
       saveExpensesWallet({
         valueInput,
@@ -101,7 +101,7 @@ class Wallet extends Component {
       descriptionInput: '',
       currencyInput: 'USD',
       methodInput: 'Dinheiro',
-      tagInput: ALIMENTACAO,
+      tagInput: feeding,
     });
   }
 

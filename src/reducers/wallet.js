@@ -1,11 +1,11 @@
 // Esse reducer será responsável por tratar o todas as informações relacionadas as despesas
-const initialState = {
+const INITIAL_STATE = {
   currencies: [],
   expenses: [],
   isFetching: false,
 };
 
-const wallet = (state = initialState, action) => {
+const wallet = (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case 'SUCESS_REQUEST':
     return {

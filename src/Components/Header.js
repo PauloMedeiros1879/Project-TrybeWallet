@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {};
   }

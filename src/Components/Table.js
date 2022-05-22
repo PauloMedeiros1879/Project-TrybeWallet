@@ -30,10 +30,6 @@ class Table extends Component {
               <td>{item.exchangeRates[item.currency].name}</td>
               <td>{Number(item.exchangeRates[item.currency].ask).toFixed(2)}</td>
               <td>
-                {`R$ ${(item.value * item.exchangeRates[item.currency].ask).toFixed(2)}`}
-              </td>
-              <td>Real</td>
-              <td>
                 <button
                   type="button"
                   data-testid="edit-btn"
