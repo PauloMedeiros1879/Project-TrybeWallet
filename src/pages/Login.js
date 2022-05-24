@@ -7,8 +7,7 @@ class Login extends Component {
     const { history } = this.props;
     return (
       <div>
-        <h1>Trybe</h1>
-        <h2>Wallet</h2>
+        <h1>Trybe Wallet</h1>
         <Form history={ history } />
       </div>
 

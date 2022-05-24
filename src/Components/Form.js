@@ -49,7 +49,7 @@ class Form extends Component {
 
     return (
       <div>
-        <h1>Login</h1>
+        <h2>Login</h2>
         <label htmlFor="email">
           Email:
           <input
