@@ -1,16 +1,12 @@
-# 🚧 README em construção 🚧
+# Projeto Trybewallet!
+Nesse projeto foi desenvolvido uma aplicação com React, Redux e React Testing Library, que computa gastos em diferentes moedas e converte para Real utilizando a API de Cotação de Moedas.
 
-<!-- Olá, Tryber!
+## Desempenho:
+O projeto Trybewallet foi desenvolvido por Paulo Medeiros durante o curso de Desenvolvimento Web na Trybe! Foi adquirido 100% do projeto total!
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+## Como utilizar:
+Clone o repositório: git@github.com:PauloMedeiros1879/Project-TrybeWallet.git
 
-É essencial que você preencha esse documento por conta própria, ok?
+Acesse a pasta do repositório clonado.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
-
--->
+Rode o comando npm install para instalar as dependências do projeto e npm start para visualizar no navegador.
